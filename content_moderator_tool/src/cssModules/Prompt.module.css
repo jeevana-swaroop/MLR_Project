@@ -1,0 +1,42 @@
+/* Prompt.module.css */
+.PromptClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    width: 100%;
+    border: 2px solid #ccc; /* Light border around the box */
+    border-radius: 10px; /* Rounded corners for a smooth look */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.PromptClass input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.PromptClass button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.PromptClass button:hover {
+    background-color: #4cae4c;
+}
